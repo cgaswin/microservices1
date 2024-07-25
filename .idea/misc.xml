@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/eurekaregistryservice/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/configclient/pom.xml" />
+        <option value="$PROJECT_DIR$/openfeignclient/pom.xml" />
       </list>
     </option>
   </component>
