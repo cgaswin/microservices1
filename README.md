@@ -1,0 +1,1 @@
+## The open feign client used here uses spring cloud openfeign which provides integrations for Spring Boot apps through autoconfiguration and binding to the Spring Environment and other Spring programming model idioms.
