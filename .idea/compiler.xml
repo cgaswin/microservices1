@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="helloclient" />
+        <module name="configserver" />
         <module name="eurekaregistryservice" />
         <module name="helloservice" />
         <module name="hellogateway" />
@@ -16,6 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configserver" options="-parameters" />
       <module name="eurekaregistryservice" options="-parameters" />
       <module name="helloclient" options="-parameters" />
       <module name="hellogateway" options="-parameters" />
