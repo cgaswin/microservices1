@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/configclient/pom.xml" />
         <option value="$PROJECT_DIR$/openfeignclient/pom.xml" />
+        <option value="$PROJECT_DIR$/feignproductservice/pom.xml" />
       </list>
     </option>
   </component>

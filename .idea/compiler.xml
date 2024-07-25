@@ -2,10 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="feignproductservice" />
         <module name="configclient" />
         <module name="eurekaregistryservice" />
         <module name="helloservice" />
@@ -22,6 +24,7 @@
       <module name="configclient" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="eurekaregistryservice" options="-parameters" />
+      <module name="feignproductservice" options="-parameters" />
       <module name="helloclient" options="-parameters" />
       <module name="hellogateway" options="-parameters" />
       <module name="helloservice" options="-parameters" />
