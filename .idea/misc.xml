@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/hellogateway/pom.xml" />
         <option value="$PROJECT_DIR$/helloservice/pom.xml" />
         <option value="$PROJECT_DIR$/helloservice2/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaregistryservice/pom.xml" />
       </list>
     </option>
   </component>
