@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: bootsecurity
+
+server:
+  port: 8081
