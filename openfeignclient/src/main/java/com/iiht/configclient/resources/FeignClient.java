@@ -2,12 +2,14 @@ package com.iiht.configclient.resources;
 
 import com.iiht.configclient.interfaces.FeignInterface;
 import com.iiht.configclient.model.Product;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -16,12 +18,19 @@ public class FeignClient implements FeignInterface {
     @Autowired
     private FeignInterface feignClient;
 
+
     @Override
     @GetMapping("/allProducts")
+    @CircuitBreaker(name = "client-cb",fallbackMethod = "generateResponse")
     public List<Product> getProducts() {
         return feignClient.getProducts();
     }
-    
+
+    public List<Product> generateResponse(Exception e){
+        List<Product> products = new ArrayList<>();
+        return products;
+    }
+
     //http://localhost:7082/client/products-by-id/2
     @Override
     @GetMapping("/products-by-id/{id}")
