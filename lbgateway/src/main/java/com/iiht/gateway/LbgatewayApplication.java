@@ -10,4 +10,5 @@ public class LbgatewayApplication {
         SpringApplication.run(LbgatewayApplication.class, args);
     }
 
+
 }

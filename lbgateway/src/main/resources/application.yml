@@ -6,11 +6,11 @@ spring:
       discovery:
         locator:
           enabled: true
-      routes:
-        - id: lbservice-route
-          uri: lb://LBSERVICE
-          predicates:
-            - Path=/test/**
+#      routes:
+#        - id: lbservice-route
+#          uri: lb://LBSERVICE
+#          predicates:
+#            - Path=/test/**
 
 server:
   port: 9999
