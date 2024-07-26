@@ -9,10 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="feignproductservice" />
         <module name="configclient" />
+        <module name="lbgateway" />
         <module name="eurekaregistryservice" />
         <module name="helloservice" />
         <module name="helloservice2" />
         <module name="openfeignclient" />
+        <module name="lb-eureka" />
+        <module name="lbservice" />
         <module name="helloclient" />
         <module name="configserver" />
         <module name="hellogateway" />
@@ -29,6 +32,9 @@
       <module name="hellogateway" options="-parameters" />
       <module name="helloservice" options="-parameters" />
       <module name="helloservice2" options="-parameters" />
+      <module name="lb-eureka" options="-parameters" />
+      <module name="lbgateway" options="-parameters" />
+      <module name="lbservice" options="-parameters" />
       <module name="openfeignclient" options="-parameters" />
     </option>
   </component>
