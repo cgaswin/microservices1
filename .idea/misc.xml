@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/lbgateway/pom.xml" />
         <option value="$PROJECT_DIR$/lberurekaservice/pom.xml" />
         <option value="$PROJECT_DIR$/lbservice/pom.xml" />
+        <option value="$PROJECT_DIR$/helloservice-resl4j/pom.xml" />
       </list>
     </option>
   </component>
