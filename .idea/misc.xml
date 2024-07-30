@@ -17,6 +17,9 @@
         <option value="$PROJECT_DIR$/lberurekaservice/pom.xml" />
         <option value="$PROJECT_DIR$/lbservice/pom.xml" />
         <option value="$PROJECT_DIR$/helloservice-resl4j/pom.xml" />
+        <option value="$PROJECT_DIR$/helloservice-res4jclient/pom.xml" />
+        <option value="$PROJECT_DIR$/BootJWT/pom.xml" />
+        <option value="$PROJECT_DIR$/BootSecurityInMemory/pom.xml" />
       </list>
     </option>
   </component>

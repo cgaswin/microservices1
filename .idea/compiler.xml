@@ -16,15 +16,20 @@
         <module name="configserver" />
         <module name="helloservice (1)" />
         <module name="hellogateway" />
+        <module name="BootSecurity" />
         <module name="feignproductservice" />
+        <module name="BootSecurityInMemory" />
         <module name="configclient" />
         <module name="lb-eureka" />
+        <module name="helloservice-res4jclient" />
         <module name="helloclient" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BootSecurity" options="-parameters" />
+      <module name="BootSecurityInMemory" options="-parameters" />
       <module name="configclient" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="eurekaregistryservice" options="-parameters" />
@@ -33,6 +38,7 @@
       <module name="hellogateway" options="-parameters" />
       <module name="helloservice" options="-parameters" />
       <module name="helloservice (1)" options="-parameters" />
+      <module name="helloservice-res4jclient" options="-parameters" />
       <module name="helloservice2" options="-parameters" />
       <module name="lb-eureka" options="-parameters" />
       <module name="lbgateway" options="-parameters" />
