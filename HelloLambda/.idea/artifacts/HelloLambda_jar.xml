@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HelloLambda:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HelloLambda_jar</output-path>
+    <root id="archive" name="HelloLambda.jar">
+      <element id="module-output" name="HelloLambda" />
+    </root>
+  </artifact>
+</component>
